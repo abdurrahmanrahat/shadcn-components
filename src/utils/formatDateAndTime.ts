@@ -4,7 +4,7 @@ export const formatDateAndTime = (date: string) => {
   // Format date
   const formattedDate = formatDate.toLocaleDateString(undefined, {
     year: "numeric",
-    month: "long",
+    month: "short",
     day: "numeric",
   });
 
