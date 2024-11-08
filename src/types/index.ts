@@ -1,7 +1,7 @@
 export type TInterview = {
   _id: string;
-  interviewer: string;
-  interviewee: string;
+  interviewer: TInterviewer;
+  interviewee: TInterviewee;
   scheduledAt: string;
   duration: number;
   status: string;
@@ -12,4 +12,24 @@ export type TInterview = {
   updatedAt: string;
   __v: number;
   meetingLink?: string;
+};
+
+export type TInterviewer = {
+  _id: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  image: string;
+  skills: string[];
+  education: string[];
+};
+
+export type TInterviewee = {
+  _id: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  image: string;
+  skills: string[];
+  education: string[];
 };
