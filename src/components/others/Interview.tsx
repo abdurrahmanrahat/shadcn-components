@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
-import MainModal from "@/components/Modal/MainModal";
+import MainModal from "@/components/others/Modal/MainModal";
 import { TInterview } from "@/types";
 import { formatDateAndTime } from "@/utils/formatDateAndTime";
 import Image from "next/image";
